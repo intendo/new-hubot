@@ -1,0 +1,681 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'hubot',
+1 verbose cli   'hubot-scripts',
+1 verbose cli   'hubot-diagnostics',
+1 verbose cli   'hubot-help',
+1 verbose cli   'hubot-heroku-keepalive',
+1 verbose cli   'hubot-google-images',
+1 verbose cli   'hubot-google-translate',
+1 verbose cli   'hubot-pugme',
+1 verbose cli   'hubot-maps',
+1 verbose cli   'hubot-redis-brain',
+1 verbose cli   'hubot-rules',
+1 verbose cli   'hubot-shipit',
+1 verbose cli   'hubot-irc',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.8
+3 info using node@v7.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData hubot
+8 silly fetchPackageMetaData hubot-scripts
+9 silly fetchPackageMetaData hubot-diagnostics
+10 silly fetchPackageMetaData hubot-help
+11 silly fetchPackageMetaData hubot-heroku-keepalive
+12 silly fetchPackageMetaData hubot-google-images
+13 silly fetchPackageMetaData hubot-google-translate
+14 silly fetchPackageMetaData hubot-pugme
+15 silly fetchPackageMetaData hubot-maps
+16 silly fetchPackageMetaData hubot-redis-brain
+17 silly fetchPackageMetaData hubot-rules
+18 silly fetchPackageMetaData hubot-shipit
+19 silly fetchPackageMetaData hubot-irc
+20 silly fetchNamedPackageData hubot
+21 silly mapToRegistry name hubot
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry data Result {
+24 silly mapToRegistry   raw: 'hubot',
+24 silly mapToRegistry   scope: null,
+24 silly mapToRegistry   escapedName: 'hubot',
+24 silly mapToRegistry   name: 'hubot',
+24 silly mapToRegistry   rawSpec: '',
+24 silly mapToRegistry   spec: 'latest',
+24 silly mapToRegistry   type: 'tag' }
+25 silly mapToRegistry uri https://registry.npmjs.org/hubot
+26 silly fetchNamedPackageData hubot-scripts
+27 silly mapToRegistry name hubot-scripts
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'hubot-scripts',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'hubot-scripts',
+30 silly mapToRegistry   name: 'hubot-scripts',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/hubot-scripts
+32 silly fetchNamedPackageData hubot-diagnostics
+33 silly mapToRegistry name hubot-diagnostics
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry data Result {
+36 silly mapToRegistry   raw: 'hubot-diagnostics',
+36 silly mapToRegistry   scope: null,
+36 silly mapToRegistry   escapedName: 'hubot-diagnostics',
+36 silly mapToRegistry   name: 'hubot-diagnostics',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri https://registry.npmjs.org/hubot-diagnostics
+38 silly fetchNamedPackageData hubot-help
+39 silly mapToRegistry name hubot-help
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry data Result {
+42 silly mapToRegistry   raw: 'hubot-help',
+42 silly mapToRegistry   scope: null,
+42 silly mapToRegistry   escapedName: 'hubot-help',
+42 silly mapToRegistry   name: 'hubot-help',
+42 silly mapToRegistry   rawSpec: '',
+42 silly mapToRegistry   spec: 'latest',
+42 silly mapToRegistry   type: 'tag' }
+43 silly mapToRegistry uri https://registry.npmjs.org/hubot-help
+44 silly fetchNamedPackageData hubot-heroku-keepalive
+45 silly mapToRegistry name hubot-heroku-keepalive
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'hubot-heroku-keepalive',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'hubot-heroku-keepalive',
+48 silly mapToRegistry   name: 'hubot-heroku-keepalive',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/hubot-heroku-keepalive
+50 silly fetchNamedPackageData hubot-google-images
+51 silly mapToRegistry name hubot-google-images
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry data Result {
+54 silly mapToRegistry   raw: 'hubot-google-images',
+54 silly mapToRegistry   scope: null,
+54 silly mapToRegistry   escapedName: 'hubot-google-images',
+54 silly mapToRegistry   name: 'hubot-google-images',
+54 silly mapToRegistry   rawSpec: '',
+54 silly mapToRegistry   spec: 'latest',
+54 silly mapToRegistry   type: 'tag' }
+55 silly mapToRegistry uri https://registry.npmjs.org/hubot-google-images
+56 silly fetchNamedPackageData hubot-google-translate
+57 silly mapToRegistry name hubot-google-translate
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry data Result {
+60 silly mapToRegistry   raw: 'hubot-google-translate',
+60 silly mapToRegistry   scope: null,
+60 silly mapToRegistry   escapedName: 'hubot-google-translate',
+60 silly mapToRegistry   name: 'hubot-google-translate',
+60 silly mapToRegistry   rawSpec: '',
+60 silly mapToRegistry   spec: 'latest',
+60 silly mapToRegistry   type: 'tag' }
+61 silly mapToRegistry uri https://registry.npmjs.org/hubot-google-translate
+62 silly fetchNamedPackageData hubot-pugme
+63 silly mapToRegistry name hubot-pugme
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry data Result {
+66 silly mapToRegistry   raw: 'hubot-pugme',
+66 silly mapToRegistry   scope: null,
+66 silly mapToRegistry   escapedName: 'hubot-pugme',
+66 silly mapToRegistry   name: 'hubot-pugme',
+66 silly mapToRegistry   rawSpec: '',
+66 silly mapToRegistry   spec: 'latest',
+66 silly mapToRegistry   type: 'tag' }
+67 silly mapToRegistry uri https://registry.npmjs.org/hubot-pugme
+68 silly fetchNamedPackageData hubot-maps
+69 silly mapToRegistry name hubot-maps
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry data Result {
+72 silly mapToRegistry   raw: 'hubot-maps',
+72 silly mapToRegistry   scope: null,
+72 silly mapToRegistry   escapedName: 'hubot-maps',
+72 silly mapToRegistry   name: 'hubot-maps',
+72 silly mapToRegistry   rawSpec: '',
+72 silly mapToRegistry   spec: 'latest',
+72 silly mapToRegistry   type: 'tag' }
+73 silly mapToRegistry uri https://registry.npmjs.org/hubot-maps
+74 silly fetchNamedPackageData hubot-redis-brain
+75 silly mapToRegistry name hubot-redis-brain
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry data Result {
+78 silly mapToRegistry   raw: 'hubot-redis-brain',
+78 silly mapToRegistry   scope: null,
+78 silly mapToRegistry   escapedName: 'hubot-redis-brain',
+78 silly mapToRegistry   name: 'hubot-redis-brain',
+78 silly mapToRegistry   rawSpec: '',
+78 silly mapToRegistry   spec: 'latest',
+78 silly mapToRegistry   type: 'tag' }
+79 silly mapToRegistry uri https://registry.npmjs.org/hubot-redis-brain
+80 silly fetchNamedPackageData hubot-rules
+81 silly mapToRegistry name hubot-rules
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npmjs.org/
+84 silly mapToRegistry data Result {
+84 silly mapToRegistry   raw: 'hubot-rules',
+84 silly mapToRegistry   scope: null,
+84 silly mapToRegistry   escapedName: 'hubot-rules',
+84 silly mapToRegistry   name: 'hubot-rules',
+84 silly mapToRegistry   rawSpec: '',
+84 silly mapToRegistry   spec: 'latest',
+84 silly mapToRegistry   type: 'tag' }
+85 silly mapToRegistry uri https://registry.npmjs.org/hubot-rules
+86 silly fetchNamedPackageData hubot-shipit
+87 silly mapToRegistry name hubot-shipit
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry data Result {
+90 silly mapToRegistry   raw: 'hubot-shipit',
+90 silly mapToRegistry   scope: null,
+90 silly mapToRegistry   escapedName: 'hubot-shipit',
+90 silly mapToRegistry   name: 'hubot-shipit',
+90 silly mapToRegistry   rawSpec: '',
+90 silly mapToRegistry   spec: 'latest',
+90 silly mapToRegistry   type: 'tag' }
+91 silly mapToRegistry uri https://registry.npmjs.org/hubot-shipit
+92 silly fetchNamedPackageData hubot-irc
+93 silly mapToRegistry name hubot-irc
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry data Result {
+96 silly mapToRegistry   raw: 'hubot-irc',
+96 silly mapToRegistry   scope: null,
+96 silly mapToRegistry   escapedName: 'hubot-irc',
+96 silly mapToRegistry   name: 'hubot-irc',
+96 silly mapToRegistry   rawSpec: '',
+96 silly mapToRegistry   spec: 'latest',
+96 silly mapToRegistry   type: 'tag' }
+97 silly mapToRegistry uri https://registry.npmjs.org/hubot-irc
+98 verbose request uri https://registry.npmjs.org/hubot-irc
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 9:16:19 PM
+101 verbose request id 4d06cc18c075df64
+102 http request GET https://registry.npmjs.org/hubot-irc
+103 verbose request uri https://registry.npmjs.org/hubot-help
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 9:16:19 PM
+106 verbose etag W/"59553ee0-376c"
+107 verbose lastModified Thu, 29 Jun 2017 17:54:40 GMT
+108 http request GET https://registry.npmjs.org/hubot-help
+109 verbose request uri https://registry.npmjs.org/hubot-diagnostics
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 9:16:19 PM
+112 verbose etag W/"595536ce-1826"
+113 verbose lastModified Thu, 29 Jun 2017 17:20:14 GMT
+114 http request GET https://registry.npmjs.org/hubot-diagnostics
+115 verbose request uri https://registry.npmjs.org/hubot
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 9:16:19 PM
+118 verbose etag W/"5967ef5a-1956e"
+119 verbose lastModified Thu, 13 Jul 2017 22:08:26 GMT
+120 http request GET https://registry.npmjs.org/hubot
+121 verbose request uri https://registry.npmjs.org/hubot-heroku-keepalive
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 9:16:19 PM
+124 verbose etag W/"5952f154-3fdb"
+125 verbose lastModified Tue, 27 Jun 2017 23:59:16 GMT
+126 http request GET https://registry.npmjs.org/hubot-heroku-keepalive
+127 verbose request uri https://registry.npmjs.org/hubot-google-translate
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 9:16:19 PM
+130 verbose etag W/"5952f156-189f"
+131 verbose lastModified Tue, 27 Jun 2017 23:59:18 GMT
+132 http request GET https://registry.npmjs.org/hubot-google-translate
+133 verbose request uri https://registry.npmjs.org/hubot-google-images
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 9:16:19 PM
+136 verbose etag W/"5952f155-6091"
+137 verbose lastModified Tue, 27 Jun 2017 23:59:17 GMT
+138 http request GET https://registry.npmjs.org/hubot-google-images
+139 verbose request uri https://registry.npmjs.org/hubot-scripts
+140 verbose request no auth needed
+141 info attempt registry request try #1 at 9:16:19 PM
+142 verbose etag W/"5739e625-106f6"
+143 verbose lastModified Mon, 16 May 2016 15:24:21 GMT
+144 http request GET https://registry.npmjs.org/hubot-scripts
+145 verbose request uri https://registry.npmjs.org/hubot-pugme
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 9:16:19 PM
+148 verbose etag W/"5952f157-1189"
+149 verbose lastModified Tue, 27 Jun 2017 23:59:19 GMT
+150 http request GET https://registry.npmjs.org/hubot-pugme
+151 verbose request uri https://registry.npmjs.org/hubot-maps
+152 verbose request no auth needed
+153 info attempt registry request try #1 at 9:16:19 PM
+154 verbose etag W/"5953ccbd-1615"
+155 verbose lastModified Wed, 28 Jun 2017 15:35:25 GMT
+156 http request GET https://registry.npmjs.org/hubot-maps
+157 verbose request uri https://registry.npmjs.org/hubot-rules
+158 verbose request no auth needed
+159 info attempt registry request try #1 at 9:16:19 PM
+160 verbose etag W/"59553c06-2027"
+161 verbose lastModified Thu, 29 Jun 2017 17:42:30 GMT
+162 http request GET https://registry.npmjs.org/hubot-rules
+163 verbose request uri https://registry.npmjs.org/hubot-redis-brain
+164 verbose request no auth needed
+165 info attempt registry request try #1 at 9:16:19 PM
+166 verbose etag W/"59553b00-2621"
+167 verbose lastModified Thu, 29 Jun 2017 17:38:08 GMT
+168 http request GET https://registry.npmjs.org/hubot-redis-brain
+169 verbose request uri https://registry.npmjs.org/hubot-shipit
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 9:16:19 PM
+172 verbose etag W/"5952f15b-1f6e"
+173 verbose lastModified Tue, 27 Jun 2017 23:59:23 GMT
+174 http request GET https://registry.npmjs.org/hubot-shipit
+175 http 304 https://registry.npmjs.org/hubot-help
+176 verbose headers { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+176 verbose headers   via: '1.1 varnish',
+176 verbose headers   'cache-control': 'max-age=300',
+176 verbose headers   etag: 'W/"59553ee0-376c"',
+176 verbose headers   age: '168',
+176 verbose headers   connection: 'keep-alive',
+176 verbose headers   'x-served-by': 'cache-sjc3643-SJC',
+176 verbose headers   'x-cache': 'HIT',
+176 verbose headers   'x-cache-hits': '1',
+176 verbose headers   'x-timer': 'S1504066580.278756,VS0,VE1',
+176 verbose headers   vary: 'Accept-Encoding, Accept' }
+177 silly get cb [ 304,
+177 silly get   { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+177 silly get     via: '1.1 varnish',
+177 silly get     'cache-control': 'max-age=300',
+177 silly get     etag: 'W/"59553ee0-376c"',
+177 silly get     age: '168',
+177 silly get     connection: 'keep-alive',
+177 silly get     'x-served-by': 'cache-sjc3643-SJC',
+177 silly get     'x-cache': 'HIT',
+177 silly get     'x-cache-hits': '1',
+177 silly get     'x-timer': 'S1504066580.278756,VS0,VE1',
+177 silly get     vary: 'Accept-Encoding, Accept' } ]
+178 verbose etag https://registry.npmjs.org/hubot-help from cache
+179 verbose get saving hubot-help to /Users/d3c572/.npm/registry.npmjs.org/hubot-help/.cache.json
+180 verbose correctMkdir /Users/d3c572/.npm correctMkdir not in flight; initializing
+181 http 304 https://registry.npmjs.org/hubot-diagnostics
+182 verbose headers { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+182 verbose headers   via: '1.1 varnish',
+182 verbose headers   'cache-control': 'max-age=300',
+182 verbose headers   etag: 'W/"595536ce-1826"',
+182 verbose headers   age: '168',
+182 verbose headers   connection: 'keep-alive',
+182 verbose headers   'x-served-by': 'cache-sjc3124-SJC',
+182 verbose headers   'x-cache': 'HIT',
+182 verbose headers   'x-cache-hits': '1',
+182 verbose headers   'x-timer': 'S1504066580.286798,VS0,VE0',
+182 verbose headers   vary: 'Accept-Encoding, Accept' }
+183 silly get cb [ 304,
+183 silly get   { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+183 silly get     via: '1.1 varnish',
+183 silly get     'cache-control': 'max-age=300',
+183 silly get     etag: 'W/"595536ce-1826"',
+183 silly get     age: '168',
+183 silly get     connection: 'keep-alive',
+183 silly get     'x-served-by': 'cache-sjc3124-SJC',
+183 silly get     'x-cache': 'HIT',
+183 silly get     'x-cache-hits': '1',
+183 silly get     'x-timer': 'S1504066580.286798,VS0,VE0',
+183 silly get     vary: 'Accept-Encoding, Accept' } ]
+184 verbose etag https://registry.npmjs.org/hubot-diagnostics from cache
+185 verbose get saving hubot-diagnostics to /Users/d3c572/.npm/registry.npmjs.org/hubot-diagnostics/.cache.json
+186 verbose correctMkdir /Users/d3c572/.npm correctMkdir already in flight; waiting
+187 http 304 https://registry.npmjs.org/hubot
+188 verbose headers { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+188 verbose headers   via: '1.1 varnish',
+188 verbose headers   'cache-control': 'max-age=300',
+188 verbose headers   etag: 'W/"5967ef5a-1956e"',
+188 verbose headers   age: '168',
+188 verbose headers   connection: 'keep-alive',
+188 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+188 verbose headers   'x-cache': 'HIT',
+188 verbose headers   'x-cache-hits': '1',
+188 verbose headers   'x-timer': 'S1504066580.292914,VS0,VE0',
+188 verbose headers   vary: 'Accept-Encoding, Accept' }
+189 silly get cb [ 304,
+189 silly get   { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+189 silly get     via: '1.1 varnish',
+189 silly get     'cache-control': 'max-age=300',
+189 silly get     etag: 'W/"5967ef5a-1956e"',
+189 silly get     age: '168',
+189 silly get     connection: 'keep-alive',
+189 silly get     'x-served-by': 'cache-sjc3123-SJC',
+189 silly get     'x-cache': 'HIT',
+189 silly get     'x-cache-hits': '1',
+189 silly get     'x-timer': 'S1504066580.292914,VS0,VE0',
+189 silly get     vary: 'Accept-Encoding, Accept' } ]
+190 verbose etag https://registry.npmjs.org/hubot from cache
+191 verbose get saving hubot to /Users/d3c572/.npm/registry.npmjs.org/hubot/.cache.json
+192 verbose correctMkdir /Users/d3c572/.npm correctMkdir already in flight; waiting
+193 http 304 https://registry.npmjs.org/hubot-maps
+194 verbose headers { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+194 verbose headers   via: '1.1 varnish',
+194 verbose headers   'cache-control': 'max-age=300',
+194 verbose headers   etag: 'W/"5953ccbd-1615"',
+194 verbose headers   age: '168',
+194 verbose headers   connection: 'keep-alive',
+194 verbose headers   'x-served-by': 'cache-sjc3643-SJC',
+194 verbose headers   'x-cache': 'HIT',
+194 verbose headers   'x-cache-hits': '1',
+194 verbose headers   'x-timer': 'S1504066580.412095,VS0,VE1',
+194 verbose headers   vary: 'Accept-Encoding, Accept' }
+195 silly get cb [ 304,
+195 silly get   { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+195 silly get     via: '1.1 varnish',
+195 silly get     'cache-control': 'max-age=300',
+195 silly get     etag: 'W/"5953ccbd-1615"',
+195 silly get     age: '168',
+195 silly get     connection: 'keep-alive',
+195 silly get     'x-served-by': 'cache-sjc3643-SJC',
+195 silly get     'x-cache': 'HIT',
+195 silly get     'x-cache-hits': '1',
+195 silly get     'x-timer': 'S1504066580.412095,VS0,VE1',
+195 silly get     vary: 'Accept-Encoding, Accept' } ]
+196 verbose etag https://registry.npmjs.org/hubot-maps from cache
+197 verbose get saving hubot-maps to /Users/d3c572/.npm/registry.npmjs.org/hubot-maps/.cache.json
+198 verbose correctMkdir /Users/d3c572/.npm correctMkdir not in flight; initializing
+199 http 304 https://registry.npmjs.org/hubot-rules
+200 verbose headers { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+200 verbose headers   via: '1.1 varnish',
+200 verbose headers   'cache-control': 'max-age=300',
+200 verbose headers   etag: 'W/"59553c06-2027"',
+200 verbose headers   age: '168',
+200 verbose headers   connection: 'keep-alive',
+200 verbose headers   'x-served-by': 'cache-sjc3628-SJC',
+200 verbose headers   'x-cache': 'HIT',
+200 verbose headers   'x-cache-hits': '1',
+200 verbose headers   'x-timer': 'S1504066580.420680,VS0,VE1',
+200 verbose headers   vary: 'Accept-Encoding, Accept' }
+201 silly get cb [ 304,
+201 silly get   { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+201 silly get     via: '1.1 varnish',
+201 silly get     'cache-control': 'max-age=300',
+201 silly get     etag: 'W/"59553c06-2027"',
+201 silly get     age: '168',
+201 silly get     connection: 'keep-alive',
+201 silly get     'x-served-by': 'cache-sjc3628-SJC',
+201 silly get     'x-cache': 'HIT',
+201 silly get     'x-cache-hits': '1',
+201 silly get     'x-timer': 'S1504066580.420680,VS0,VE1',
+201 silly get     vary: 'Accept-Encoding, Accept' } ]
+202 verbose etag https://registry.npmjs.org/hubot-rules from cache
+203 verbose get saving hubot-rules to /Users/d3c572/.npm/registry.npmjs.org/hubot-rules/.cache.json
+204 verbose correctMkdir /Users/d3c572/.npm correctMkdir not in flight; initializing
+205 http 304 https://registry.npmjs.org/hubot-redis-brain
+206 verbose headers { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+206 verbose headers   via: '1.1 varnish',
+206 verbose headers   'cache-control': 'max-age=300',
+206 verbose headers   etag: 'W/"59553b00-2621"',
+206 verbose headers   age: '168',
+206 verbose headers   connection: 'keep-alive',
+206 verbose headers   'x-served-by': 'cache-sjc3620-SJC',
+206 verbose headers   'x-cache': 'HIT',
+206 verbose headers   'x-cache-hits': '1',
+206 verbose headers   'x-timer': 'S1504066580.427657,VS0,VE1',
+206 verbose headers   vary: 'Accept-Encoding, Accept' }
+207 silly get cb [ 304,
+207 silly get   { date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+207 silly get     via: '1.1 varnish',
+207 silly get     'cache-control': 'max-age=300',
+207 silly get     etag: 'W/"59553b00-2621"',
+207 silly get     age: '168',
+207 silly get     connection: 'keep-alive',
+207 silly get     'x-served-by': 'cache-sjc3620-SJC',
+207 silly get     'x-cache': 'HIT',
+207 silly get     'x-cache-hits': '1',
+207 silly get     'x-timer': 'S1504066580.427657,VS0,VE1',
+207 silly get     vary: 'Accept-Encoding, Accept' } ]
+208 verbose etag https://registry.npmjs.org/hubot-redis-brain from cache
+209 verbose get saving hubot-redis-brain to /Users/d3c572/.npm/registry.npmjs.org/hubot-redis-brain/.cache.json
+210 verbose correctMkdir /Users/d3c572/.npm correctMkdir not in flight; initializing
+211 http 200 https://registry.npmjs.org/hubot-irc
+212 verbose headers { server: 'nginx/1.10.1',
+212 verbose headers   'content-type': 'application/json',
+212 verbose headers   'last-modified': 'Thu, 13 Jul 2017 22:33:15 GMT',
+212 verbose headers   etag: 'W/"5967f52b-d2d4"',
+212 verbose headers   'content-encoding': 'gzip',
+212 verbose headers   'cache-control': 'max-age=300',
+212 verbose headers   'content-length': '6481',
+212 verbose headers   'accept-ranges': 'bytes',
+212 verbose headers   date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+212 verbose headers   via: '1.1 varnish',
+212 verbose headers   age: '0',
+212 verbose headers   connection: 'keep-alive',
+212 verbose headers   'x-served-by': 'cache-sjc3649-SJC',
+212 verbose headers   'x-cache': 'MISS',
+212 verbose headers   'x-cache-hits': '0',
+212 verbose headers   'x-timer': 'S1504066581.886883,VS0,VE23',
+212 verbose headers   vary: 'Accept-Encoding, Accept' }
+213 silly get cb [ 200,
+213 silly get   { server: 'nginx/1.10.1',
+213 silly get     'content-type': 'application/json',
+213 silly get     'last-modified': 'Thu, 13 Jul 2017 22:33:15 GMT',
+213 silly get     etag: 'W/"5967f52b-d2d4"',
+213 silly get     'content-encoding': 'gzip',
+213 silly get     'cache-control': 'max-age=300',
+213 silly get     'content-length': '6481',
+213 silly get     'accept-ranges': 'bytes',
+213 silly get     date: 'Wed, 30 Aug 2017 04:16:20 GMT',
+213 silly get     via: '1.1 varnish',
+213 silly get     age: '0',
+213 silly get     connection: 'keep-alive',
+213 silly get     'x-served-by': 'cache-sjc3649-SJC',
+213 silly get     'x-cache': 'MISS',
+213 silly get     'x-cache-hits': '0',
+213 silly get     'x-timer': 'S1504066581.886883,VS0,VE23',
+213 silly get     vary: 'Accept-Encoding, Accept' } ]
+214 verbose get saving hubot-irc to /Users/d3c572/.npm/registry.npmjs.org/hubot-irc/.cache.json
+215 verbose correctMkdir /Users/d3c572/.npm correctMkdir not in flight; initializing
+216 http 304 https://registry.npmjs.org/hubot-heroku-keepalive
+217 verbose headers { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+217 verbose headers   via: '1.1 varnish',
+217 verbose headers   'cache-control': 'max-age=300',
+217 verbose headers   etag: 'W/"5952f154-3fdb"',
+217 verbose headers   age: '169',
+217 verbose headers   connection: 'keep-alive',
+217 verbose headers   'x-served-by': 'cache-sjc3650-SJC',
+217 verbose headers   'x-cache': 'HIT',
+217 verbose headers   'x-cache-hits': '1',
+217 verbose headers   'x-timer': 'S1504066581.050727,VS0,VE1',
+217 verbose headers   vary: 'Accept-Encoding, Accept' }
+218 silly get cb [ 304,
+218 silly get   { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+218 silly get     via: '1.1 varnish',
+218 silly get     'cache-control': 'max-age=300',
+218 silly get     etag: 'W/"5952f154-3fdb"',
+218 silly get     age: '169',
+218 silly get     connection: 'keep-alive',
+218 silly get     'x-served-by': 'cache-sjc3650-SJC',
+218 silly get     'x-cache': 'HIT',
+218 silly get     'x-cache-hits': '1',
+218 silly get     'x-timer': 'S1504066581.050727,VS0,VE1',
+218 silly get     vary: 'Accept-Encoding, Accept' } ]
+219 verbose etag https://registry.npmjs.org/hubot-heroku-keepalive from cache
+220 verbose get saving hubot-heroku-keepalive to /Users/d3c572/.npm/registry.npmjs.org/hubot-heroku-keepalive/.cache.json
+221 verbose correctMkdir /Users/d3c572/.npm correctMkdir not in flight; initializing
+222 http 304 https://registry.npmjs.org/hubot-pugme
+223 verbose headers { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+223 verbose headers   via: '1.1 varnish',
+223 verbose headers   'cache-control': 'max-age=300',
+223 verbose headers   etag: 'W/"5952f157-1189"',
+223 verbose headers   age: '169',
+223 verbose headers   connection: 'keep-alive',
+223 verbose headers   'x-served-by': 'cache-sjc3633-SJC',
+223 verbose headers   'x-cache': 'HIT',
+223 verbose headers   'x-cache-hits': '1',
+223 verbose headers   'x-timer': 'S1504066581.057681,VS0,VE0',
+223 verbose headers   vary: 'Accept-Encoding, Accept' }
+224 silly get cb [ 304,
+224 silly get   { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+224 silly get     via: '1.1 varnish',
+224 silly get     'cache-control': 'max-age=300',
+224 silly get     etag: 'W/"5952f157-1189"',
+224 silly get     age: '169',
+224 silly get     connection: 'keep-alive',
+224 silly get     'x-served-by': 'cache-sjc3633-SJC',
+224 silly get     'x-cache': 'HIT',
+224 silly get     'x-cache-hits': '1',
+224 silly get     'x-timer': 'S1504066581.057681,VS0,VE0',
+224 silly get     vary: 'Accept-Encoding, Accept' } ]
+225 verbose etag https://registry.npmjs.org/hubot-pugme from cache
+226 verbose get saving hubot-pugme to /Users/d3c572/.npm/registry.npmjs.org/hubot-pugme/.cache.json
+227 verbose correctMkdir /Users/d3c572/.npm correctMkdir not in flight; initializing
+228 http 304 https://registry.npmjs.org/hubot-google-translate
+229 verbose headers { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+229 verbose headers   via: '1.1 varnish',
+229 verbose headers   'cache-control': 'max-age=300',
+229 verbose headers   etag: 'W/"5952f156-189f"',
+229 verbose headers   age: '169',
+229 verbose headers   connection: 'keep-alive',
+229 verbose headers   'x-served-by': 'cache-sjc3150-SJC',
+229 verbose headers   'x-cache': 'HIT',
+229 verbose headers   'x-cache-hits': '1',
+229 verbose headers   'x-timer': 'S1504066581.065428,VS0,VE0',
+229 verbose headers   vary: 'Accept-Encoding, Accept' }
+230 silly get cb [ 304,
+230 silly get   { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+230 silly get     via: '1.1 varnish',
+230 silly get     'cache-control': 'max-age=300',
+230 silly get     etag: 'W/"5952f156-189f"',
+230 silly get     age: '169',
+230 silly get     connection: 'keep-alive',
+230 silly get     'x-served-by': 'cache-sjc3150-SJC',
+230 silly get     'x-cache': 'HIT',
+230 silly get     'x-cache-hits': '1',
+230 silly get     'x-timer': 'S1504066581.065428,VS0,VE0',
+230 silly get     vary: 'Accept-Encoding, Accept' } ]
+231 verbose etag https://registry.npmjs.org/hubot-google-translate from cache
+232 verbose get saving hubot-google-translate to /Users/d3c572/.npm/registry.npmjs.org/hubot-google-translate/.cache.json
+233 verbose correctMkdir /Users/d3c572/.npm correctMkdir not in flight; initializing
+234 http 304 https://registry.npmjs.org/hubot-shipit
+235 verbose headers { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+235 verbose headers   via: '1.1 varnish',
+235 verbose headers   'cache-control': 'max-age=300',
+235 verbose headers   etag: 'W/"5952f15b-1f6e"',
+235 verbose headers   age: '169',
+235 verbose headers   connection: 'keep-alive',
+235 verbose headers   'x-served-by': 'cache-sjc3634-SJC',
+235 verbose headers   'x-cache': 'HIT',
+235 verbose headers   'x-cache-hits': '1',
+235 verbose headers   'x-timer': 'S1504066581.072055,VS0,VE0',
+235 verbose headers   vary: 'Accept-Encoding, Accept' }
+236 silly get cb [ 304,
+236 silly get   { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+236 silly get     via: '1.1 varnish',
+236 silly get     'cache-control': 'max-age=300',
+236 silly get     etag: 'W/"5952f15b-1f6e"',
+236 silly get     age: '169',
+236 silly get     connection: 'keep-alive',
+236 silly get     'x-served-by': 'cache-sjc3634-SJC',
+236 silly get     'x-cache': 'HIT',
+236 silly get     'x-cache-hits': '1',
+236 silly get     'x-timer': 'S1504066581.072055,VS0,VE0',
+236 silly get     vary: 'Accept-Encoding, Accept' } ]
+237 verbose etag https://registry.npmjs.org/hubot-shipit from cache
+238 verbose get saving hubot-shipit to /Users/d3c572/.npm/registry.npmjs.org/hubot-shipit/.cache.json
+239 verbose correctMkdir /Users/d3c572/.npm correctMkdir not in flight; initializing
+240 http 304 https://registry.npmjs.org/hubot-scripts
+241 verbose headers { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+241 verbose headers   via: '1.1 varnish',
+241 verbose headers   'cache-control': 'max-age=300',
+241 verbose headers   etag: 'W/"5739e625-106f6"',
+241 verbose headers   age: '169',
+241 verbose headers   connection: 'keep-alive',
+241 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+241 verbose headers   'x-cache': 'HIT',
+241 verbose headers   'x-cache-hits': '1',
+241 verbose headers   'x-timer': 'S1504066581.079678,VS0,VE1',
+241 verbose headers   vary: 'Accept-Encoding, Accept' }
+242 silly get cb [ 304,
+242 silly get   { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+242 silly get     via: '1.1 varnish',
+242 silly get     'cache-control': 'max-age=300',
+242 silly get     etag: 'W/"5739e625-106f6"',
+242 silly get     age: '169',
+242 silly get     connection: 'keep-alive',
+242 silly get     'x-served-by': 'cache-sjc3123-SJC',
+242 silly get     'x-cache': 'HIT',
+242 silly get     'x-cache-hits': '1',
+242 silly get     'x-timer': 'S1504066581.079678,VS0,VE1',
+242 silly get     vary: 'Accept-Encoding, Accept' } ]
+243 verbose etag https://registry.npmjs.org/hubot-scripts from cache
+244 verbose get saving hubot-scripts to /Users/d3c572/.npm/registry.npmjs.org/hubot-scripts/.cache.json
+245 verbose correctMkdir /Users/d3c572/.npm correctMkdir not in flight; initializing
+246 http 304 https://registry.npmjs.org/hubot-google-images
+247 verbose headers { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+247 verbose headers   via: '1.1 varnish',
+247 verbose headers   'cache-control': 'max-age=300',
+247 verbose headers   etag: 'W/"5952f155-6091"',
+247 verbose headers   age: '169',
+247 verbose headers   connection: 'keep-alive',
+247 verbose headers   'x-served-by': 'cache-sjc3628-SJC',
+247 verbose headers   'x-cache': 'HIT',
+247 verbose headers   'x-cache-hits': '1',
+247 verbose headers   'x-timer': 'S1504066581.219735,VS0,VE1',
+247 verbose headers   vary: 'Accept-Encoding, Accept' }
+248 silly get cb [ 304,
+248 silly get   { date: 'Wed, 30 Aug 2017 04:16:21 GMT',
+248 silly get     via: '1.1 varnish',
+248 silly get     'cache-control': 'max-age=300',
+248 silly get     etag: 'W/"5952f155-6091"',
+248 silly get     age: '169',
+248 silly get     connection: 'keep-alive',
+248 silly get     'x-served-by': 'cache-sjc3628-SJC',
+248 silly get     'x-cache': 'HIT',
+248 silly get     'x-cache-hits': '1',
+248 silly get     'x-timer': 'S1504066581.219735,VS0,VE1',
+248 silly get     vary: 'Accept-Encoding, Accept' } ]
+249 verbose etag https://registry.npmjs.org/hubot-google-images from cache
+250 verbose get saving hubot-google-images to /Users/d3c572/.npm/registry.npmjs.org/hubot-google-images/.cache.json
+251 verbose correctMkdir /Users/d3c572/.npm correctMkdir not in flight; initializing
+252 silly install normalizeTree
+253 silly loadCurrentTree Finishing
+254 silly loadIdealTree Starting
+255 silly install loadIdealTree
+256 silly cloneCurrentTree Starting
+257 silly install cloneCurrentTreeToIdealTree
+258 silly cloneCurrentTree Finishing
+259 silly loadShrinkwrap Starting
+260 silly install loadShrinkwrap
+261 silly loadShrinkwrap Finishing
+262 silly loadAllDepsIntoIdealTree Starting
+263 silly install loadAllDepsIntoIdealTree
+264 silly rollbackFailedOptional Starting
+265 silly rollbackFailedOptional Finishing
+266 silly runTopLevelLifecycles Finishing
+267 silly install printInstalled
+268 verbose stack Error: Refusing to install hubot as a dependency of itself
+268 verbose stack     at checkSelf (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:53:14)
+268 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+268 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+268 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+268 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/validate-args.js:16:5
+268 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+268 verbose stack     at Array.forEach (native)
+268 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+268 verbose stack     at Array.forEach (native)
+268 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+269 verbose cwd /Users/d3c572/git/hubot
+270 error Darwin 16.7.0
+271 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "hubot" "hubot-scripts" "hubot-diagnostics" "hubot-help" "hubot-heroku-keepalive" "hubot-google-images" "hubot-google-translate" "hubot-pugme" "hubot-maps" "hubot-redis-brain" "hubot-rules" "hubot-shipit" "hubot-irc" "--save"
+272 error node v7.0.0
+273 error npm  v3.10.8
+274 error code ENOSELF
+275 error Refusing to install hubot as a dependency of itself
+276 error If you need help, you may report this error at:
+276 error     <https://github.com/npm/npm/issues>
+277 verbose exit [ 1, true ]
